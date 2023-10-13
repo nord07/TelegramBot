@@ -11,7 +11,7 @@ namespace TelegramBotExperiments
 
     class Program
     {
-        static ITelegramBotClient bot = new TelegramBotClient("5462724219:AAEx7WpUYhDoP8xChuwaJuAA8-0TLoNTI1A");
+        static ITelegramBotClient bot = new TelegramBotClient("TOKEN");
         static void Main(string[] args)
         {
             TelegramBot.SaveImage.TestConnection();

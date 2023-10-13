@@ -21,7 +21,7 @@ namespace TelegramBot
         }
         internal static NpgsqlConnection GetConnection()
         {
-            return new NpgsqlConnection(@"Server=10.1.1.192;Port=5432;User Id=a_bochkare;Password=GbDr_J3r;Database=TelegramBot;");
+            return new NpgsqlConnection(@"Server=localhost;Port=5432;User Id=user;Password=pass;Database=TelegramBot;");
         }
     }
 }
